@@ -1,0 +1,151 @@
+#title{
+    background-color: #ff4c68;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+nav .nbd{
+    font-family: 'ubuntu', sans-serif;
+    font-size: 2rem;
+}
+nav{
+    margin-bottom: 50px;
+}
+#hh1{
+    font-family: 'Montserrat';
+    size:5.5rem;
+    line-height:1.5;
+    color: aliceblue;
+}
+.card{
+    margin-right: 10px;
+}
+h2{
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+.container-fluid{
+    margin:0;
+    padding: 3% 13%;
+}
+.row{
+    padding-top:40px;
+}
+button{
+    margin:5% 3% 5% 0;
+}
+.title-image{
+    width:20%;
+    height: 80%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+.i1{
+    font-size: 3rem;
+    color:  #ef8172;
+    padding-bottom: 2rem;
+}
+.i1:hover{
+    color:#ff4c68 ;
+}
+/* features section  */
+#features{
+    padding: 10% 7%;
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+}
+.fbox{
+    text-align: center;
+    padding: 5%;
+}
+h3{
+    font-family: 'Montserrat-black' ;
+    font-size:2.5rem;
+}
+.navbar-brand{
+    font-family: 'ubuntu';
+    font-size:2.5rem;
+    font-weight:bold;
+}
+/* testimonial  */
+#testimonials{
+   
+    text-align:center;
+    background-color: #ef8172;
+    color:#fff;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom:15%;
+}
+.press-image{
+    width:17%;
+    margin:0 2%;
+}
+.testimonial-image{
+    width:10%;
+    border-radius:100%;
+    margin:2rem 2rem;
+}
+ /* pricing section  */
+ #pricing{
+    padding: 20px;
+    text-align: center;
+ }
+ .price-text{
+    font-size: 2rem;
+    line-height: 2;
+ }
+
+ /* last section  */
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 80px 150px;
+
+
+}
+ 
+#cta h3{
+    font-size:3rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    line-height: 1.5;
+
+} 
+ .carousel-item{
+    padding:15% 14%;
+ }
+#footer{
+    text-align: center;
+    padding: 100px;
+}
+#footer i{
+    font-size: 1.5rem;
+    margin-right: 10px;
+    margin-bottom: 25px;
+}
+
+
+ @media (max-width:900px)  {
+    .title-image{
+        transform:rotate(0);
+        position:  static;
+    }
+    #title{
+        text-align: center;
+    }
+
+ }
+
+
+.c{
+    margin:0 10%;
+}    
+.c .ca{
+    margin:0 20px;
+}
